@@ -1,2 +1,0 @@
-# react-workspace
-self practicing
