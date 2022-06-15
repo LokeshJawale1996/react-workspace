@@ -9,11 +9,13 @@ import AnimalAndBirdsList from "./components/MapToPrintList/AnimalAndBirdsList";
 import MobileListToUnderstandKeyPropAndSpreadOperator from "./components/KeyPropSpreadOperator/MobileListToUnderstandKeyPropAndSpreadOperator";
 import BookList from "./components/EventBasics/BookList";
 import MobileListFinal from "./components/understandImportAndExport/MobilelistFinal";
+import Greeting from "./components/jsx/Greeting";
 
 function App() {
   return (
     <div className="App">
       {/* 1) Nested Components */}
+      <Greeting />
       <Nested1 />
       <MobileList />
       <MobileListWithJs />
