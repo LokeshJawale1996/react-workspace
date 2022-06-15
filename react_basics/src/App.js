@@ -6,6 +6,9 @@ import MobileListPropsExample from "./components/props/MobileListPropsExample";
 import MobileListPropsDestructing from "./components/props/MobileListPropsDestructing";
 import Namelist from "./components/MapToPrintList/Namelist";
 import AnimalAndBirdsList from "./components/MapToPrintList/AnimalAndBirdsList";
+import MobileListToUnderstandKeyPropAndSpreadOperator from "./components/KeyPropSpreadOperator/MobileListToUnderstandKeyPropAndSpreadOperator";
+import BookList from "./components/EventBasics/BookList";
+import MobileListFinal from "./components/understandImportAndExport/MobilelistFinal";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
       <MobileListPropsDestructing />
       <Namelist />
       <AnimalAndBirdsList />
+      <MobileListToUnderstandKeyPropAndSpreadOperator />
+      <BookList />
+      <MobileListFinal />
     </div>
   );
 }
