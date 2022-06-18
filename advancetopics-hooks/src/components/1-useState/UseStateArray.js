@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// when we import array data from another component use {} this
 import { employee } from "./data";
 function UseStateArray() {
   const [person, setPerson] = React.useState(employee);
